@@ -1727,7 +1727,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J2" gate="G$1" x="-71.12" y="142.24"/>
 <instance part="P+2" gate="1" x="-55.88" y="154.94"/>
 <instance part="GND4" gate="1" x="-55.88" y="139.7"/>
-<instance part="J3" gate="G$1" x="-104.14" y="58.42"/>
+<instance part="J3" gate="G$1" x="-68.58" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -1852,8 +1852,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="147.32" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LEDROPE" gate="A" pin="4"/>
 <wire x1="129.54" y1="109.22" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="96.52" x2="-63.5" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="96.52" x2="-63.5" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="96.52" x2="-63.5" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -1862,8 +1863,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="144.78" y1="106.68" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="106.68" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="93.98" x2="-60.96" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="93.98" x2="-60.96" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="93.98" x2="-60.96" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="LEDROPE" gate="A" pin="2"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="-60.96" y1="73.66" x2="-63.5" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -1872,8 +1875,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="144.78" y1="86.36" x2="139.7" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="86.36" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="91.44" x2="-58.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="91.44" x2="-58.42" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="LEDROPE" gate="A" pin="1"/>
+<wire x1="-58.42" y1="91.44" x2="-58.42" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="-58.42" y1="71.12" x2="-63.5" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -1882,8 +1887,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="147.32" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="83.82" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="88.9" x2="-55.88" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="88.9" x2="-55.88" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="LEDROPE" gate="A" pin="3"/>
+<wire x1="-55.88" y1="88.9" x2="-55.88" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="-55.88" y1="68.58" x2="-63.5" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
